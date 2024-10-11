@@ -11,11 +11,13 @@ import Footer from "./footer.jsx"
 const Home = () => {
 	return (<>
 		<NavBar/>
-		<Jumbotron/>
+		{/* <Jumbotron/>
+		<div className="container text-center d-flex">
 		<Card/>
 		<Card/>
 		<Card/>
 		<Card/>
+		</div> */}
 		<Footer/>
 		</>
 	);
